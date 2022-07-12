@@ -27,7 +27,7 @@ namespace e_library.Test.TestCases
         public Student _student;
 
         private readonly StudentViewModel _studentViewModel;
-        private static string type = "Exceptional";
+        private static string type = "Exception";
         public ExceptionalTests(ITestOutputHelper output)
         {
             _libraryS = new LibraryServices(libraryservice.Object);
