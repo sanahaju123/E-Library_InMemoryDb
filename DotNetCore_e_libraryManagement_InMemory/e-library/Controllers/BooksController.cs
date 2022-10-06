@@ -8,8 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace e_library.Controllers
-{
-    [Route("api/[controller]")]
+{ 
     [ApiController]
     public class BooksController : ControllerBase
     {
