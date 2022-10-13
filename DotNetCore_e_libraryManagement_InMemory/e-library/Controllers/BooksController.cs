@@ -25,6 +25,7 @@ namespace e_library.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
+        [Route("issued-book")]
         public async Task<IEnumerable<Book>> IssuedBook()
         {
             return await _libraryServices.IssuedBook();
